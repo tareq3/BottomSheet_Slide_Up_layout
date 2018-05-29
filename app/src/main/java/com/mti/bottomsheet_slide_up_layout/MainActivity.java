@@ -34,12 +34,10 @@ Context mContext;
         slide_Helper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                View view=getLayoutInflater().inflate(R.layout.fragment_bottom_sheet_dialog,null);
 
-                BottomSheetDialog dialog=new BottomSheetDialog(mContext);
-                dialog.setContentView(view);
-                dialog.show();
+                BottomSheetFragment bottomSheetFragment=new BottomSheetFragment();
 
+                bottomSheetFragment.show(getSupportFragmentManager(),bottomSheetFragment.getTag());
             }
         });
 
