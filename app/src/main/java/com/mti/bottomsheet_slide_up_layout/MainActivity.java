@@ -1,9 +1,9 @@
 package com.mti.bottomsheet_slide_up_layout;
 
 import android.content.Context;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.BottomSheetDialog;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
