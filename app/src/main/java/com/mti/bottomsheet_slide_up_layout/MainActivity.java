@@ -1,13 +1,11 @@
 package com.mti.bottomsheet_slide_up_layout;
 
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,13 +19,13 @@ ImageView slide_Helper;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        slide_Helper=findViewById(R.id.imageView2);
+     /*   slide_Helper=findViewById(R.id.imageView2);
         sheetBehavior = BottomSheetBehavior.from(findViewById(R.id.bottom_Sheet));
 
-        /**
+        *//**
          * bottom sheet state change listener
          * we are changing button text when sheet changed state
-         * */
+         * *//*
         sheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
@@ -74,7 +72,7 @@ ImageView slide_Helper;
                 }
             }
         });
-
+*/
     }
 
 }
